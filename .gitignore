@@ -1,0 +1,50 @@
+/vendor/
+/node_modules/
+
+# PHPStorm project files
+.idea/
+
+# Common temporary files for PHP projects
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Composer files
+/composer.lock
+/.phpunit.result.cache
+
+# Operating system generated files
+.DS_Store
+Thumbs.db
+
+# PHPUnit coverage reports
+/coverage/
+/phpunit.xml
+
+# Environment specific files
+/.env
+/.env.local
+/.env.*.local
+
+# Exported databases
+*.sql
+*.sql.gz
+*.csv
+
+# Build artifacts
+/build/
+/phar/
+
+# npm log files
+npm-debug.log*
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Local configuration files
+/config/*.local.php
+
+# Testing artifacts
+/phpunit-testdox.txt
